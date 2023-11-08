@@ -1,7 +1,7 @@
-// This is just an example,
-// so you can safely delete all default props below
-
 export default {
-  failed: 'Action failed',
-  success: 'Action was successful',
+  welcome: 'Welcome to RCC',
+  nav: {
+    home: 'Home',
+    notification_count: '0 Notification | 1 Notification | {n} Notifications',
+  },
 };

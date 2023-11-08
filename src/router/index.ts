@@ -32,5 +32,14 @@ export default route((/* { store, ssrContext } */) => {
     history: createHistory(process.env.VUE_ROUTER_BASE),
   });
 
+  Router.beforeEach((to, from, next) => {
+    if (to.meta && to.meta.title) {
+      document.title = to.meta.title as string; // Set the page title
+    } else {
+      document.title = 'RCC'; // Set a default title
+    }
+    next();
+  });
+
   return Router;
 });

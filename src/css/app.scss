@@ -1,1 +1,22 @@
-// app global css in SCSS form
+// General CSS
+.bg-app-primary{
+  background-color: #345250 !important;
+}
+
+
+
+/* Utility Classes */
+.q-px-140{
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.rounded-borders-16{
+  border-radius: 16px;
+}
+
+/* FORMS */
+.q-field--outlined .q-field__control{
+  border-radius: 24px;
+  border: 1px solid #6A7284;
+}

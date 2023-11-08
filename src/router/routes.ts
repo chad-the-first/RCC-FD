@@ -13,6 +13,12 @@ const routes: RouteRecordRaw[] = [
     path: '/:catchAll(.*)*',
     component: () => import('pages/ErrorNotFound.vue'),
   },
+  {
+    path: '/login',
+    component: () => import('layouts/SimpleLayout.vue'),
+    children: [{ path: '', component: () => import('pages/LoginPage.vue') }],
+    meta: { title: 'Login | RCC' },
+  },
 ];
 
 export default routes;

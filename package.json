@@ -2,7 +2,7 @@
   "name": "emp-rcc",
   "version": "0.0.1",
   "description": "A Quasar Project",
-  "productName": "Quasar App",
+  "productName": "RCC",
   "author": "saadtanvir1994 <saadtanvir1994@gmail.com>",
   "private": true,
   "scripts": {
