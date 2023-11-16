@@ -3,7 +3,7 @@
     <q-header class="bg-app-primary text-white q-px-140">
       <div class="row flex justify-end">
         <q-img
-        src="images/basf-logo.png"
+        src="/images/basf-logo.png"
         alt="basf-logo"
         fit="contain"
         style="width: 224px;height: 76px;"/>
@@ -17,7 +17,7 @@
     <q-footer class="bg-app-primary text-white">
       <div class="flex full-width column wrap  content-center">
         <q-img
-        src="images/locke-and-partners.png"
+        src="/images/locke-and-partners.png"
         alt="basf-logo"
         fit="contain"
         style="width: 269px; height: 87px;"
