@@ -57,12 +57,17 @@ import {
   defineComponent, reactive, ref,
 } from 'vue';
 
+interface LoginForm {
+  userEmail: string;
+  userPassword: string;
+}
+
 export default defineComponent({
   name: 'LoginPage',
   component: {},
   setup() {
     const isPasswordVisible = ref(false);
-    const loginForm = reactive({
+    const loginForm = reactive<LoginForm>({
       userEmail: '',
       userPassword: '',
     });
