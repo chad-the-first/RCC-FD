@@ -6,6 +6,10 @@ const routes: RouteRecordRaw[] = [
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('pages/IndexPage.vue') }],
   },
+  {
+    path: '/maps',
+    component: () => import('pages/MapsPage.vue'),
+  },
 
   // Always leave this as last one,
   // but you can also remove it
